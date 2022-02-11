@@ -2,7 +2,7 @@ import Faker from "faker";
 
 const Comment = (props) => {
  return( 
-  <div className="ui cards">
+  <div className="ui cards" style={{paddingTop : "150px",marginLeft : "500px"}}>
     <div className="card">
       <div className="content">
         <img

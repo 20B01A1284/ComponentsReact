@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Comment from './comment.js';
 import Button from './button';
-import './styles.css';
+
 
 const App = () =>{
     return(
@@ -15,6 +15,6 @@ const App = () =>{
 
 ReactDOM.render(
 
-    <App />,
+    <App / >,
     document.getElementById("root")
 );
